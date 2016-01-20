@@ -7,7 +7,7 @@ class Solution(object):
             index2.append(j)
         for index, i in enumerate(index1):
             j = index2[index]
-            matrix[i][:] = [0] * len(matrix[i])
+            matrix[i][:] = [0 for x in matrix[i]]
             print(matrix[i])
             for y in matrix:
                 y[j] = 0
