@@ -80,5 +80,9 @@
 ### Merge Sorted Array
 
    - 本质上两个指针, 倒着找, 这样把时间降为O(n)
+   
+### Add Digits
+
+   - 数根
 
 
