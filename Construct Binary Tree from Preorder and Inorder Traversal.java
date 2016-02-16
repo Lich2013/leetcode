@@ -17,8 +17,8 @@ public TreeNode buildTreeRecursive(int[] preorder, int[] inorder) {
         int[] new_left_ino = Arrays.copyOfRange(inorder, 0, index);
         int[] new_rigth_pre = Arrays.copyOfRange(preorder, index + 1, preorder.length);
         int[] new_rigth_ino = Arrays.copyOfRange(inorder, index + 1, inorder.length);
-        root.left = buildTree(new_left_pre, new_left_ino);
-        root.right = buildTree(new_rigth_pre, new_rigth_ino);
+        root.left = buildTreeRecursive(new_left_pre, new_left_ino);
+        root.right = buildTreeRecursive(new_rigth_pre, new_rigth_ino);
         return root;
     }
     
