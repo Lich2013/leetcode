@@ -304,3 +304,9 @@
 ### Two Sum II - Input array is sorted
 
 - esay, 三次ac, 首尾双指针, 总和大于目标移动尾指针, 小于移动首指针
+
+### Delete Node in a BST
+
+- 二叉搜索树删除节点
+- 道理我都懂, 为什么写出来各种bug
+- 用递归写, 被删除节点度为0,1,2分情况处理
