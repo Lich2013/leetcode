@@ -301,3 +301,6 @@
 
 - esay, 一次AC, 没啥可以讲的, 证明三点共线完事, 这里用的是平行线法
 
+### Two Sum II - Input array is sorted
+
+- esay, 三次ac, 首尾双指针, 总和大于目标移动尾指针, 小于移动首指针
