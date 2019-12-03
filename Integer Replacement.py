@@ -2,7 +2,6 @@ class Solution:
     def integerReplacement(self, n: int) -> int:
         count = 0
         while n > 3:
-            print(n)
             count += 1
             if n & 1 == 0:
                 n >>= 1
