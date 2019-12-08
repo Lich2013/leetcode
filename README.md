@@ -363,3 +363,8 @@
 ### Sort Characters By Frequency
 
 - 写的是middle, 但是实际只有easy, 没啥值得讲的
+
+### Remove Nth Node From End of List
+
+- 一次删除链表里的倒数第n个节点
+- 双指针, 两个指针相距n, 即可求出, 不过实际上可以相距n+1, 实现会更优雅

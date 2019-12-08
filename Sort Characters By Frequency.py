@@ -22,5 +22,7 @@ class Solution:
             for y in reverseCountMap[x]:
                 result += y*x
         return result
+
+        
 if __name__ == '__main__':
     print(Solution().frequencySort('Aabb'))
