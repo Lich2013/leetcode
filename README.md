@@ -355,3 +355,7 @@
 - 所以最多能偷 dp[i] = max(dp[i-2]+nums[i], dp[i-1])
 - 对于前0个房屋, 能偷到的金额为0, 所以dp[0] = 0
 - 最后就求两种nums的最大值
+
+### Unique Number of Occurrences
+
+- 过于easy, 是个人都知道怎么做
