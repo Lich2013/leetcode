@@ -434,3 +434,7 @@
 ### Uncommon Words from Two Sentences
 
 - 统计两个字符串里只出现了一次的单词, easy
+
+### Minimum Add to Make Parentheses Valid
+
+- 栈的思路, 计数来判断, 没难度
