@@ -426,3 +426,7 @@
 - pre[1:index+1+1]是新的左子树, pre[index+1+1:]是新的右子树
 - 相对应的post[:index+1]是新的左子树, post[index+1:]是新的右子树
 - 递归解决问题
+
+### Remove Duplicates from Sorted List
+
+- 移除排序链表里的重复节点, esay
