@@ -430,3 +430,7 @@
 ### Remove Duplicates from Sorted List
 
 - 移除排序链表里的重复节点, esay
+
+### Uncommon Words from Two Sentences
+
+- 统计两个字符串里只出现了一次的单词, easy
