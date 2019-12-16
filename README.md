@@ -438,3 +438,10 @@
 ### Minimum Add to Make Parentheses Valid
 
 - 栈的思路, 计数来判断, 没难度
+
+### Shortest Path with Alternating Colors
+
+- 无权有向图最短路径, 但是有附加条件: 边有两种颜色, 必须在路径中交替出现
+- BFS
+- 注意点: 需要处理环的情况, 即要标记访问过的边
+- 好像是第一次写图相关的, 学+写花了两个小时
