@@ -451,3 +451,9 @@
 - 看对角线的数字是不是相等
 - 其实就是看`matrix[i][j] != matrix[i-1][j-1]`
 - 注意边界`matrix[i][0] matrix[0][j]`这一行一列不做判断
+
+### K Closest Points to Origin
+
+- 最接近原点的 K 个点
+- 偷懒直接用sortd对points排序, 然后返回前K个
+- 正统思路该用堆的
