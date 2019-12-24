@@ -457,3 +457,10 @@
 - 最接近原点的 K 个点
 - 偷懒直接用sortd对points排序, 然后返回前K个
 - 正统思路该用堆的
+
+### Permutation in String
+
+- 给定两个字符串 **s1** 和 **s2**，写一个函数来判断 **s2** 是否包含 **s1** 的排列
+- 用滑动窗口
+- 首先生成s1CountMap和s2CountMap
+- 然后遍历s2CountMap, 加减每个字母出现的次数, 并且和s1CountMap比较
