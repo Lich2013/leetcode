@@ -21,9 +21,10 @@ class Solution:
             slow = slow.next
             fast = fast.next.next
         root = TreeNode(slow.val)
-        pre.next = None
-        root.left = self.sortedListToBST(head)
-        root.left = self.sortedListToBST(slow.next)
+        if pre is not None:
+            pre.next = None
+            root.left = self.sortedListToBST(head)
+        root.right = self.sortedListToBST(slow.next)
         return root
 
 if __name__ == '__main__':
