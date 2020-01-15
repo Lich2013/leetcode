@@ -486,3 +486,13 @@
     - 如果 `end == 1`, 继续`end++`
     - 当`end == 0`, `start++`
   - `longest = max(longest, end-start)`
+
+### Combination Sum IV
+
+- 给定一个由正整数组成且不存在重复数字的数组，找出和为给定目标正整数的组合的个数
+
+- 思路类似前面做过的Coin Change 2
+
+- 状态转移方程 `dp[i] = sum{dp[i - num] for num in nums if i >= num}`, `dp[0]=1`
+
+  
