@@ -504,3 +504,9 @@
 - 对于特例假如单调递增, 或者说在删除n个数以后, k-n > 0, 并且单调递增的情况下, 只需要把最后k-n删除即可, result`[:-k] (k>0)`
 - 对于结果, 去掉前导0, 如果已经是空字符串返回0
 - 剪枝 `if len(num) <= k: return '0'`
+
+### Top K Frequent Elements
+
+- 找出数组里前k个高频元素
+- 思路很简单, hashmap存每个元素出现频次, 然后构建大顶堆, 取前k个
+- 学习到了新姿势, py的`collection.Counter`可以直接统计频次, `heapq.nlargest`直接返回大顶堆的前k个
